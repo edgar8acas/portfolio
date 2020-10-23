@@ -36,7 +36,7 @@ function NavBar() {
       <div className="navigation-wrapper">
         <ul>
           <li className="site-navigation__link"><a href="#projects">Projects</a></li>
-          <li className="site-navigation__link"><a href="#">Blog</a></li>
+          <li className="site-navigation__link"><a href="#blog">Blog</a></li>
           <li className="site-navigation__link"><a href="#about-me">About me</a></li>
           <li className="site-navigation__link"><a href="#contact">Contact</a></li>
         </ul>
