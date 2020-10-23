@@ -14,7 +14,7 @@
   padding: 1rem 0;
   text-decoration: none;
   display: block;
-  color: var(--skyblue);
+  color: #fff;
   font-family: 'Overlock', cursive;
   font-size: clamp(1.5rem, 1vw, 2rem);
   transition: font-size 0.5s ease 0s;
