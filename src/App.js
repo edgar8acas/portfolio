@@ -14,9 +14,9 @@ function App() {
           <AboutMe />
         }
       />
-      <Portfolio></Portfolio>
-      <Contact></Contact>
-      <Navigation></Navigation>
+      <Portfolio />
+      <Contact />
+      <Navigation />
     </div>
   );
 }

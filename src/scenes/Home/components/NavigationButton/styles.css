@@ -1,0 +1,17 @@
+.navigation-button {
+  position: fixed;
+  top: 2rem; right: 2rem;
+  border-radius: 50%;
+  padding: 9px 10px;
+  border: none;
+  background-color: white;
+}
+
+.navigation-button--icon > div {
+  width: 1.3em;
+  height: 2px;
+  margin: 4px 0;
+  background-color: var(--darkblue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+

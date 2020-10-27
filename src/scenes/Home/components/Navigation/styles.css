@@ -1,11 +1,11 @@
-.site-navigation {
+.navigation--menu {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   background-color: #fff;
-  border: 1px solid red;
+  display: none;
 }
 
-.site-navigation ul {
+.navigation--menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,21 +18,21 @@
   transform: translate(-50%, -50%);
 }
 
-.site-navigation ul > li {
+.navigation--menu ul > li {
   padding: 1rem 0rem;
 }
 
-.site-navigation ul > li > a {
+.navigation--menu ul > li > a {
   text-decoration: none;
   color: var(--darkblue);
   font-family: 'Overlock', cursive;
   font-size: clamp(1.5rem, 1vw, 2rem);
 }
 
-.site-navigation ul > li > a:hover {
+.navigation--menu ul > li > a:hover {
   text-shadow: 3px 3px 3px #ccc;
 }
 
-.site-navigation__active {
-  
+.navigation--menu__active {
+  display: block;
 }
