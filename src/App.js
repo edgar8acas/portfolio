@@ -1,22 +1,17 @@
 import React from 'react';
 import './App.css';
-import Landing from './scenes/Home/components/Landing';
+import Header from './scenes/Home/components/Header';
 import AboutMe from './scenes/Home/components/AboutMe';
 import Contact from './scenes/Home/components/Contact';
-import Portfolio from './scenes/Home/components/Portfolio';
-import Navigation from './scenes/Home/components/Navigation';
+import Projects from './scenes/Home/components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Landing 
-        aboutMe={
-          <AboutMe />
-        }
-      />
-      <Portfolio></Portfolio>
+      <Header></Header>
+      <Projects></Projects>
+      <AboutMe></AboutMe>
       <Contact></Contact>
-      <Navigation></Navigation>
     </div>
   );
 }

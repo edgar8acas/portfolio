@@ -1,13 +1,16 @@
 import React from 'react';
 import './styles.css'
 
-function Header() {
+function AboutMe() {
   return (
-    <p className="about-me">
-      I'm Edgar Ochoa, a software engineer from Mexico. I love making web applications
-      using Vue and Node. Currently learning React.
-    </p>
+    <section className="site-section">
+      <h2 id="about-me">About me</h2>
+      <p>
+        I'm Edgar Ochoa, software engineer from Mexico. Currently looking for a job.
+        I like web development. I enjoy my spare time watching Malcolm in the middle and playing the guitar.
+      </p>
+    </section>
   );
 }
 
-export default Header;
+export default AboutMe;

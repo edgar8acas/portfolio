@@ -1,4 +1,0 @@
-.greeting {
-  font-size: clamp(3.5rem, 5vw, 5rem);
-  color: var(--maximum-green);
-}
