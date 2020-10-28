@@ -6,7 +6,7 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      toggle: true
+      toggle: false
     }
     this.toggle = this.toggle.bind(this);
   }
