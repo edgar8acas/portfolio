@@ -4,7 +4,7 @@ import './styles.css';
 function Projects() {
   return (
     <section className="site-section">
-      <h2 id="projects">Portfolio</h2>
+      <h2 id="portfolio">Portfolio</h2>
       <p>These are some projects I've made for the web.</p>
     </section>
   );

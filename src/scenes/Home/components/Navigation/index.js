@@ -2,22 +2,39 @@ import React from 'react';
 import NavigationButton from '../NavigationButton';
 import './styles.css';
 
-function NavBar(props) {
-  return (
-    <div className="navigation">
-      <NavigationButton></NavigationButton>
-      <nav className={`navigation--menu ${props.active ? 'navigation--menu__active' : ''}`}>
-        <div className="navigation-wrapper">
-          <ul>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#blog">Blog</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
+class Navigation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      toggle: true
+    }
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle() {
+    console.log(123);
+    this.setState((state) => ({
+      toggle: !state.toggle
+    }))
+  }
+
+  render(){
+    return (
+      <div className="navigation">
+        <NavigationButton onClick={this.toggle} isMenuActive={this.state.toggle}></NavigationButton>
+        <nav className={`navigation--menu ${this.state.toggle ? 'navigation--menu__active' : ''}`}>
+          <div className="navigation-wrapper">
+            <ul>
+              <li><a href="#portfolio" onClick={this.toggle}>Portfolio</a></li>
+              <li><a href="#about-me" onClick={this.toggle}>About me</a></li>
+              <li><a href="#contact" onClick={this.toggle}>Contact</a></li>
+              <li><a href="#blog" onClick={this.toggle}>Blog</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    );
+  }
 }
 
-export default NavBar;
+export default Navigation;
