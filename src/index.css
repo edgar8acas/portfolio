@@ -1,10 +1,10 @@
 :root {
   /* COLORS */
-  --skyblue: #0EAEFF;
-  --darkblue: #050A30;
-  --maximum-green: #4D8B31;
-  --princeton-orange: #FF8427;
-  --gray: #F3F3F3;
+  --skyblue: #0eaeff;
+  --darkblue: #050a30;
+  --maximum-green: #4d8b31;
+  --princeton-orange: #ff8427;
+  --gray: #f3f3f3;
 
   /* SIZES */
   --mobile: 575px;
@@ -25,16 +25,22 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Overlock', cursive;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Overlock", cursive;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
-

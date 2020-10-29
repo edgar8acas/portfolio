@@ -1,5 +1,5 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
 function OpenButton(props) {
   return (
@@ -15,17 +15,20 @@ function OpenButton(props) {
 
 function CloseButton(props) {
   return (
-    <button className="navigation-button navigation-button--close" onClick={props.onClick}>
+    <button
+      className="navigation-button navigation-button--close"
+      onClick={props.onClick}
+    >
       <div className="navigation-button--close-icon"></div>
     </button>
   );
 }
 
 function NavigationButton(props) {
-  if(props.isMenuActive) {
-    return <CloseButton onClick={props.onClick}/>
+  if (props.isMenuActive) {
+    return <CloseButton onClick={props.onClick} />;
   }
-  return <OpenButton onClick={props.onClick} />
+  return <OpenButton onClick={props.onClick} />;
 }
 
 export default NavigationButton;
