@@ -3,8 +3,8 @@ import "./styles.css";
 
 function Projects() {
   return (
-    <section className="site-section">
-      <h2 id="portfolio">Portfolio</h2>
+    <section className="site-section" id="portfolio">
+      <h2>Portfolio</h2>
       <p>These are some projects I've made for the web.</p>
     </section>
   );

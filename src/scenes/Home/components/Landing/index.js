@@ -3,8 +3,8 @@ import "./styles.css";
 
 function Landing(props) {
   return (
-    <section className="site-section landing">
-      <h1 className="greeting" id="about-me">
+    <section className="site-section landing" id="about-me">
+      <h1 className="greeting">
         ¡Hola!
       </h1>
       {props.aboutMe}
