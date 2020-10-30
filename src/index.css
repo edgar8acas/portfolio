@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Overlock:wght@700;900&display=swap');
+
 :root {
   /* COLORS */
   --skyblue: #0eaeff;
-  --darkblue: #050a30;
-  --maximum-green: #4d8b31;
-  --princeton-orange: #ff8427;
+  --lightGray: #f0f0f0;
+  --primaryColor: #437AE6;
+  --secondaryColor: #364F6B;
   --gray: #f3f3f3;
-
+  --darkGray: #dfdfdf;
+  --links: #08918c;
   /* SIZES */
   --mobile: 575px;
   --desktop: 991px;
@@ -15,14 +19,14 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   scroll-behavior: smooth;
-  color: white;
+  color: var(--secondaryColor);
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--darkblue);
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  background-color: var(--lightGray);
+  font-family: "Overlock";
 }
 
 *,
@@ -37,7 +41,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Overlock", cursive;
+  font-family: "Josefin Sans", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: var(--links);
+  font-weight: 900;
 }
 
 code {
