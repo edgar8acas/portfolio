@@ -27,9 +27,12 @@
     <title>Inner Text</title>
   </head>
   <body>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
+    <form data-netlify="true" name="contactForm" hidden>
+      <label>Name</label>
+      <input name="name" type="text" />
+      <label>Email</label>
+      <input name="email" type="email" />
+      <label>Message</label>
       <textarea name="message"></textarea>
       <button type="submit">Send</button>
     </form>
