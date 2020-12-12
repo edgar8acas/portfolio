@@ -6,7 +6,8 @@ function Contact() {
     <section className="site-section">
       <h2 id="contact">Contact</h2>
       <p>Let's get in touch!</p>
-      <form className="contact-form" netlify name="contact">
+      <form className="contact-form" name="contact">
+        <input type="hidden" name="form-name" value="contact" />
         <label>Name</label>
         <input name="name" type="text" />
         <label>Email</label>
