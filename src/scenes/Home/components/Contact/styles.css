@@ -1,0 +1,35 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+  background-color: var(--darkGray);
+  border: 2px solid var(--darkerGray);
+  color: var(--secondaryColor);
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form label {
+  margin-bottom: 0.3rem;
+  color: var(--primaryColor);
+}
+
+.contact-form button {
+  border: none;
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.contact-form button:hover {
+  background-color: var(--darkPrimary);
+}

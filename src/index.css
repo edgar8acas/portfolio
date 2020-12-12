@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Overlock:wght@700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Overlock:wght@700;900&display=swap");
 
 :root {
   /* COLORS */
   --skyblue: #0eaeff;
   --lightGray: #f0f0f0;
-  --primaryColor: #437AE6;
-  --secondaryColor: #364F6B;
+  --primaryColor: #437ae6;
+  --darkPrimary: #3560b8;
+  --secondaryColor: #364f6b;
   --gray: #f3f3f3;
   --darkGray: #dfdfdf;
+  --darkerGray: #a1a1a1;
   --links: #08918c;
   /* SIZES */
   --mobile: 575px;
@@ -17,7 +18,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 20px;
   scroll-behavior: smooth;
   color: var(--secondaryColor);
 }

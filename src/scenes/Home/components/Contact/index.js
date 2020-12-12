@@ -5,11 +5,16 @@ function Contact() {
   return (
     <section className="site-section">
       <h2 id="contact">Contact</h2>
-      <p>LinkedIn, Github and Twitter links</p>
-      <p>
-        You can reach me at{" "}
-        <a href="mailto:edgarochoa1998@gmail.com">edgarochoa1998@gmail.com</a>
-      </p>
+      <p>Let's get in touch!</p>
+      <form className="contact-form" netlify name="contact">
+        <label>Name</label>
+        <input name="name" type="text" />
+        <label>Email</label>
+        <input name="email" type="email" />
+        <label>Message</label>
+        <textarea name="message" rows={3} />
+        <button type="submit">Send</button>
+      </form>
     </section>
   );
 }
