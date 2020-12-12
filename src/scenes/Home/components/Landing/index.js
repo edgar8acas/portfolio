@@ -8,6 +8,7 @@ function Landing(props) {
         ¡Hola!
       </h1>
       {props.aboutMe}
+      <a href="#contact" className="contact-me-btn">Contact me!</a>
     </section>
   );
 }
