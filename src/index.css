@@ -12,6 +12,7 @@
   --darkGray: #dfdfdf;
   --darkerGray: #a1a1a1;
   --links: #08918c;
+  --lightLinks: #05aca6;
   /* SIZES */
   --mobile: 575px;
   --desktop: 991px;
@@ -48,8 +49,6 @@ h6 {
 
 a {
   text-decoration: none;
-  color: var(--links);
-  font-weight: 900;
 }
 
 code {

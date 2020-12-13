@@ -1,0 +1,65 @@
+.projects-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 320px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+.Project a {
+  text-decoration: none;
+  color: var(--links);
+}
+
+.Project a:visited {
+}
+
+.Project a:hover {
+  color: var(--lightLinks);
+}
+
+.Project {
+  background: white;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 8px 6px 5px -1px var(--lightPrimary);
+}
+
+.Project h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+}
+
+.Project p {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+.Project ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Project li {
+  font-size: 0.8rem;
+  margin-right: 0.2rem;
+  margin-top: 0.2rem;
+  list-style-type: none;
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 0.2rem 0.3rem;
+  border-radius: 4px;
+}
+
+.Project .links {
+  display: flex;
+}
+
+.Project .links > a {
+  margin-right: 1.5rem;
+}

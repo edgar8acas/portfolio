@@ -73,7 +73,7 @@
   }
 
   .navigation--menu a::before {
-    content: '';
+    content: "";
     display: block;
     width: 100%;
     height: 3px;
@@ -85,6 +85,6 @@
   }
 
   .navigation--menu a:hover::before {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 }

@@ -5,7 +5,7 @@
 
 .site-section h2 {
   font-size: clamp(2.5rem, 3vw, 4rem);
-  padding-top: 2em;
+  padding-top: 1rem;
   color: var(--primaryColor);
 }
 
