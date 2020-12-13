@@ -40,10 +40,10 @@ export const Project = ({
         ))}
       </ul>
       <div className="links">
-        <a href={projectLink} target="_blank">
+        <a href={projectLink} target="_blank" rel="noopener noreferrer">
           Live
         </a>
-        <a href={codeLink} target="_blank">
+        <a href={codeLink} target="_blank" rel="noopener noreferrer">
           Code
         </a>
       </div>
