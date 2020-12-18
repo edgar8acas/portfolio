@@ -19,6 +19,15 @@ export const Projects = () => {
       >
         Get essential words from a text
       </Project>
+      <Project
+        title="Search party"
+        tags={["java", "firebase", "Google Maps API"]}
+        projectLink="https://www.youtube.com/watch?v=uHgflQEEO5A"
+        codeLink="https://github.com/edgar8acas/search-party"
+        liveText="Video demo"
+      >
+        Form a team and show the location of everyone in real time
+      </Project>
     </div>
   );
 };
@@ -29,6 +38,7 @@ export const Project = ({
   tags = [],
   projectLink,
   codeLink,
+  liveText,
 }) => {
   return (
     <div className="Project">
@@ -41,7 +51,7 @@ export const Project = ({
       </ul>
       <div className="links">
         <a href={projectLink} target="_blank" rel="noopener noreferrer">
-          Live
+          {liveText ? liveText : "Live"}
         </a>
         <a href={codeLink} target="_blank" rel="noopener noreferrer">
           Code

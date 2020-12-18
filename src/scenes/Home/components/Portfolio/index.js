@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <section className="site-section" id="portfolio">
       <h2>Portfolio</h2>
-      <p>These are some projects I've made for the web.</p>
+      <p>Some projects I've made</p>
       <Projects />
     </section>
   );
