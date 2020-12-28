@@ -7,17 +7,18 @@ export const Projects = () => {
         title="Trakku"
         tags={["node", "react", "postgres", "typescript"]}
         projectLink="https://app.trakku.net"
-        codeLink="https://github.com/edgar8acas/we-track"
+        codeLink="https://github.com/edgar8acas/trakku"
       >
         Simple issue tracker
       </Project>
       <Project
         title="Codice"
         tags={["node", "vue", "postgres", "javascript", "r"]}
-        projectLink="https://edgarochoa.dev"
+        projectLink="https://codice.edgarochoa.dev"
         codeLink="https://github.com/edgar8acas/codice"
       >
-        Get essential words from a text
+        Get essential words from collection of texts, and ease their learning
+        for
       </Project>
       <Project
         title="Search party"
@@ -38,11 +39,7 @@ export const Project = ({
   tags = [],
   projectLink,
   codeLink,
-<<<<<<< HEAD
   liveText = null,
-=======
-  liveText,
->>>>>>> 9170ef9736de836b2b8038dc6e47ecfc938d8fd2
 }) => {
   return (
     <div className="Project">
