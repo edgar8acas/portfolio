@@ -1,6 +1,6 @@
 .site-section {
   padding: 2rem;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .site-section h2 {

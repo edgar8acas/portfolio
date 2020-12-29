@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
 
-function Header() {
+function AboutMe() {
   return (
     <p className="about-me">
       I'm Edgar Ochoa, a software engineer from Mexico. I love making web
-      applications using React and Node.
+      applications. Scroll down to see my work!
     </p>
   );
 }
 
-export default Header;
+export default AboutMe;

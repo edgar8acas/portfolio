@@ -9,7 +9,8 @@ export const Projects = () => {
         projectLink="https://app.trakku.net"
         codeLink="https://github.com/edgar8acas/trakku"
       >
-        Simple issue tracker
+        Manage and track issues in a simple way. You can create projects and
+        collaborate with other people.
       </Project>
       <Project
         title="Codice"
@@ -17,8 +18,8 @@ export const Projects = () => {
         projectLink="https://codice.edgarochoa.dev"
         codeLink="https://github.com/edgar8acas/codice"
       >
-        Get essential words from collection of texts, and ease their learning
-        for
+        Get essential words from text collections and learn their meaning with
+        an interactive reader view.
       </Project>
       <Project
         title="Search party"
@@ -27,7 +28,7 @@ export const Projects = () => {
         codeLink="https://github.com/edgar8acas/search-party"
         liveText="Video demo"
       >
-        Form a team and show the location of everyone in real time
+        Form a team and show the location of everyone in real time.
       </Project>
     </div>
   );

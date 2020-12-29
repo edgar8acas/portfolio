@@ -27,6 +27,12 @@
   border-radius: 4px;
   padding: 1rem;
   box-shadow: 8px 6px 5px -1px var(--lightPrimary);
+  position: relative;
+}
+
+.Project:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
 }
 
 .Project h3 {
@@ -37,12 +43,15 @@
 .Project p {
   margin-top: 0;
   font-size: 0.9rem;
+  min-height: 5rem;
 }
 
 .Project ul {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  min-height: 4rem;
+  align-content: flex-start;
 }
 
 .Project li {
@@ -58,6 +67,8 @@
 
 .Project .links {
   display: flex;
+  position: absolute;
+  bottom: 1rem;
 }
 
 .Project .links > a {

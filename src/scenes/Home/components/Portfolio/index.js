@@ -5,7 +5,7 @@ import "./styles.css";
 function Portfolio() {
   return (
     <section className="site-section" id="portfolio">
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <p>Some projects I've made</p>
       <Projects />
     </section>
